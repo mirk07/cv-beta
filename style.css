@@ -1,0 +1,230 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+	background-image: url(https://www.growhow.in.ua/wp-content/uploads/2020/04/10-W-TRENDS.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.mini-text{
+	color: #fdfdfc;
+	font-size: 18px;
+}
+.mini
+{
+	min-width:10vw ;
+	min-height: 8vh;
+	margin-left: 74vw ;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-image: url(https://storage.googleapis.com/webdesignledger.pub.network/WDL/0ad8c7b7-joshua-bartell-6vvibtvl90a-unsplash.jpg);
+}
+.mini li, .mini a
+{
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.5s;
+}
+.mini li:hover, .mini a:hover
+{
+opacity: 0.6;
+}
+.menu
+{
+	height: 10vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-repeat: no-repeat;
+background-image: url(https://storage.googleapis.com/webdesignledger.pub.network/WDL/0ad8c7b7-joshua-bartell-6vvibtvl90a-unsplash.jpg);
+}
+.menu-links ul
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-right:15vw ;
+}
+.menu-links ul li
+{
+	font-weight: 700;
+	text-align: center;
+	list-style: none;
+	padding-left:3vw;
+}
+.menu-links ul li a
+{
+	color: #ffffff;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.menu-links ul li a .menu-text,.menu-links ul li a .menu-text-w
+{
+	padding-top:1vh;
+	opacity: 1;
+	transition: 0.5s;
+}
+.menu-links ul li:hover a .menu-text,.menu-links ul li:hover a .menu-text-w
+{
+	opacity: 0.6;
+}
+.menu-links ul li a span
+{
+	text-align: center;
+}
+.main-text
+{
+	color: #ffffff;
+	letter-spacing: 00.3vw;
+	margin-right: 30vw;
+	text-decoration: none;
+}
+.main-text span
+{
+	font-size: 2em;
+	transition: 0.5s;
+}
+.main-text span:hover
+{
+	opacity: 0.6;
+}
+.home
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 3vh;
+padding-bottom: 3vh;
+}
+.profile
+{
+	font-size: 22px;
+	width: 70vw;
+	background-color: #fdfdfc;
+}
+.profile-head
+{
+	display: block;
+	margin-top: 3vh;
+	text-align: center;
+	float: left;
+}
+.profile h1
+{
+	text-align: center;
+	display: block;
+}
+.profile-head img
+{
+	display: block;
+	height: 15vh;
+	width: 9vw;
+	border-radius: 50%;
+	margin-left: 1vw;
+	margin-top: 1vh;
+}
+.profile-head span
+{
+	display: block;
+	float: left;
+	margin-left: 2vw;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.profile-head span:hover
+{
+opacity: 0.6;
+}
+.profile-description
+{
+	background-color:rgb(241, 243, 247);
+}
+.profile-description p
+{
+	display: block;
+	opacity: 60%;
+}
+.profile-info
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.profile-description
+{
+display: block;
+	padding-left: 3vw;
+	padding-top: 7vh;
+	padding-right: 3vw;
+	padding-bottom: 7vh;
+}
+.profile-header
+{
+	background-color:rgb(247, 247, 247);
+	display: flex;
+	align-items: center;
+}
+.profile-description span
+{
+	cursor: pointer;
+	transition: 0.5s;
+}
+.profile-description span:hover
+{
+	opacity: 0.6;
+}
+@media(max-width:1280px)
+{
+	.main-text{margin-right: 30vw;}
+	.profile-head img{height: 20vh; width: 15vw;}
+	.profile-head span{margin-left: 4vw;}
+	.profile-description ul li{margin-left: 2vw;}
+	.menu-links ul li a{text-decoration: none;}
+	.profile{width: 80%; font-size: medium;}
+	.mini{margin-left: 70vw;}
+}
+@media(max-width:900px)
+{
+	.main-text{margin-right: 8vw;}
+	.profile-head img{height: 19vh; width: 18vw;}
+	.profile-description ul li{margin-left: 2vw;}
+
+	.profile{width: 80%; font-size: medium;}
+	.mini{margin-left: 65vw;}
+	.menu{height: 12vh;}
+}
+@media(max-width:480px)
+{
+	.profile-description p i{max-width: 50px;}
+	.profile-description ul li{margin-left: 5vw;}
+	.profile{width: 100%; font-size: medium;}
+	.home{ padding-top:0px; padding-bottom: 0px;}
+	.mini{margin-left: 50vw;}
+	.menu{height: 10vh;}
+}
+@media(max-width:410px){
+	.main-text{margin-right: 100vw;}
+	.menu{height: 10vh;}
+}
+@media(max-width:580px)
+{
+	.main-text span{font-size: 25px;}
+	.profile-head img{height: 20vh; width: 25vw;}
+	.profile{width: 100%; font-size: medium;}
+	.home{ padding-top:0px; padding-bottom: 0px;}
+	.mini{margin-left: 60vw;}
+	.menu{height: 10vh;}
+}
